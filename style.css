@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+}
+
+.nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none
+
+}
+
+.nav li {
+    margin-right: 30px;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+}
+
+.btn:hover {
+    transition: all 0.2s;
+    box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+
+.btn:active {
+    background-color: #808080;
+}
+
+.btn:disabled {
+    background-color: #eee;
+    border-color: #eee;
+    color: #444;
+    cursor: not-allowed;
+}
+
+.top-video {
+    max-height: 800px;
+
+}
+
+.video-media {
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.about {
+    min-height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about>p {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.main-head {
+    margin: 20px 0;
+}
+
+.form-email {
+    min-height: 300px;
+    margin: 20px 0;
+}
+
+.form-email-top {
+    margin: 20px;
+}
+
+.item-top {
+    margin: 20px 0;
+}
+
+.item-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.item {
+    min-height: 400px;
+    background-color: #808080;
+}
+
+.contacts {
+    margin-top: 15px;
+    padding: 30px 0;
+}
+
+.footer {
+    min-height: 250px;
+    background-image: url(img/footer.jpg);
+    
+}
