@@ -59,6 +59,14 @@ img {
     transition: box-shadow 0.2s;
 }
 
+.txt {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
 .btn:hover {
     transition: all 0.2s;
     box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
