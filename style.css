@@ -14,7 +14,7 @@ body {
     padding: 15px 0;
 }
 
-img {
+.logo {
     width: 80px;
     height: 80px;
     margin-right: 30px;
@@ -126,6 +126,33 @@ img {
 .item {
     min-height: 400px;
     background-color: #808080;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.item1 {
+    background: center url(img/item/pic1.jpeg);
+}
+.item2 {
+    background: center url(img/item/pic2.jpg);
+}
+.item3 {
+    background: center url(img/item/pic3.jpg);
+}
+.item4 {
+    background: center url(img/item/pic4.jpg);
+}
+.item5 {
+    background: center url(img/item/pic5.jpeg);
+}
+.item6 {
+    background: center url(img/item/pic6.jpg);
+}
+
+.item-span {
+    display: block;
+    font-size: 20px; 
+    margin-top: 20px; 
 }
 
 .contacts {
@@ -134,7 +161,9 @@ img {
 }
 
 .footer {
-    min-height: 250px;
-    background-image: url(img/footer.jpg);
-    
+    max-height: 400px;
+    background-image: url(./img/footer.jpg);
+    background-position: bottom;
+    object-fit: cover;
+    opacity: 0.5;
 }
