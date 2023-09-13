@@ -182,6 +182,9 @@ body {
     .item {
         min-height: 300px;
     }
+    .about {
+        min-height: 200px;
+    }
 }
 
 @media (max-width: 840px) {
@@ -206,5 +209,8 @@ body {
     }
     .item-top {
         font-size: 1.5em;
+    }
+    .about {
+        min-height: 200px;
     }
 }
