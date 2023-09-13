@@ -62,8 +62,8 @@ body {
 .txt {
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 35px;
     color: #7D7987
 }
 
@@ -99,11 +99,6 @@ body {
     min-height: 300px;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.about>p {
-    font-size: 24px;
-    line-height: 35px;
 }
 
 .main-head {
@@ -174,4 +169,42 @@ body {
     background-position: bottom;
     object-fit: cover;
     opacity: 0.5;
+}
+
+
+@media (max-width: 1200px) {
+    .about {
+        margin: 0 15px;
+    }
+    .item-content {
+        margin: 0 15px;
+    }
+    .item {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 840px) {
+    .nav {
+        display: none;
+    }
+    .item-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .item {
+        min-height: 300px;
+    }
+    .txt {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .main-head {
+        font-size: 1.5em;
+    }
+    .item-top {
+        font-size: 1.5em;
+    }
 }
