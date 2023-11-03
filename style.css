@@ -266,3 +266,33 @@ body {
         transform: rotate(2deg);
     }
 }
+
+
+/* Ваши существующие стили CSS */
+
+/* Стили для меню "бургер" */
+.burger-menu {
+    display: none; /* Изначально скрыто */
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.burger-menu .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px 0;
+}
+
+/* Медиа-запрос для отображения меню "бургер" на определенной ширине экрана */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: block;
+    }
+
+    .nav {
+        display: none; /* Скрываем навигационные ссылки */
+    }
+}
